@@ -2,6 +2,8 @@ import React from 'react'
 import { Container, Row, Col, Image } from 'react-bootstrap'
 import SQL from './images/SQL.png'
 import Reactlogo from './images/logo512.png'
+import Redux from './images/Redux.png'
+import html from './images/htmllogo.png'
 
 
 const Skills = () => {
@@ -17,7 +19,7 @@ const Skills = () => {
               <br/>
               <li><Image className='skills' src='https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Python-logo-notext.svg/1200px-Python-logo-notext.svg.png' fluid/> </li>
               <br/>
-              <li><Image  className='htmlskills' src='http://assets.stickpng.com/images/5847f5bdcef1014c0b5e489c.png' /></li>
+              <li><Image  className='htmlskills' src={html} /></li>
               <br/>
               <li><Image className='htmlskills' src='https://cdn.freebiesupply.com/logos/large/2x/css3-logo-png-transparent.png' /></li>
               <br/>
@@ -30,7 +32,7 @@ const Skills = () => {
               <h1>Front-End</h1>
               <li><Image className='frontend' src={`${Reactlogo}`} /></li>
               <br/>
-              <li> <Image className='htmlskills' src='https://lh3.googleusercontent.com/proxy/p8dT6r-rbvvIS57L-g9lTowL3WhZaByDiLJoj_bVHUyE-D7CKARY1IqTmkYbImjMDkNyznmpTn-idnqQPDFLlG7Ry3B1kiQl' />  </li>
+              <li> <Image className='backend' src={Redux} />  </li>
              <br/>
              <li> <Image className='frontend' src='https://upload.wikimedia.org/wikipedia/commons/thumb/9/95/Vue.js_Logo_2.svg/555px-Vue.js_Logo_2.svg.png' /> </li>
              <br/>

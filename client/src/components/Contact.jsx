@@ -1,8 +1,7 @@
-import React, {useState} from 'react'
+import React from 'react'
 import Resume from './images/FinalResume.pdf'
 import {Container, Row, Col, Image} from 'react-bootstrap'
-import { Document, Page } from 'react-pdf';
-import PDF from './Pdf';
+
 import resumeimage from './images/resumeimage.png'
 
 
