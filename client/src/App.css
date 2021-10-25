@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300&display=swap');
 .App {
   text-align: center;
   
@@ -185,7 +186,7 @@ body {
   -o-background-size: cover;
   background-size: cover;
   color: white;
-  font-family: 'Noto Serif Display', serif;
+  font-family: 'Comic Neue', cursive;
 }
 
 .skills {
@@ -238,4 +239,46 @@ ul {
   -o-background-size: cover;
   background-size: cover;
   color: white;
+}
+
+.contact {
+color: white;
+font-family: 'Comic Neue', cursive;
+  margin: 0 auto;
+}
+
+.phone {
+  color: white;
+  line-break: auto;
+}
+
+.lets {
+  color: orange;
+}
+.make {
+  color: green;
+}
+
+.make:hover {
+  color: red;
+  font-size: 40px;
+}
+
+.lets:hover {
+  color: purple;
+  font-size: 40px;
+}
+
+
+.phone:hover {
+  font-size: 30px;
+  color: #61dafb;
+}
+.contactsection {
+background: url(https://images.unsplash.com/photo-1442120108414-42e7ea50d0b5?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1249&q=80) no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+color: white;
 }
