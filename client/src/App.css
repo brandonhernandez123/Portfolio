@@ -3,6 +3,8 @@
   text-align: center;
   
 }
+
+
 body {
    background: url(https://images.unsplash.com/photo-1468276311594-df7cb65d8df6?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1170&q=80) no-repeat center center fixed;
   -webkit-background-size: cover;
@@ -223,12 +225,15 @@ ul {
 
   .firstname {
     font-size: 35px;
+    color: white;
 
   }
 
   .lastname {
     font-size: 35px;
+    color: white;
   }
+
 }
 
 
@@ -281,4 +286,38 @@ background: url(https://images.unsplash.com/photo-1442120108414-42e7ea50d0b5?ixi
 -o-background-size: cover;
 background-size: cover;
 color: white;
+}
+
+
+@media (max-width: 400px) {
+
+body {
+  background-color: blanchedalmond;
+}
+
+  
+}
+@media screen and  (max-width: 500px) {
+  body {
+  
+    color: turquoise;
+  }
+
+  .projectsbackground {
+    background-image: none;
+  }
+
+  .contactsection {
+    background-image: none;
+  }
+
+  .skillssection {
+    background-image: none;
+  }
+
+  .about {
+    background-image: none;
+  }
+
+ 
 }
