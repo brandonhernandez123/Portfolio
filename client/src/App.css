@@ -298,14 +298,7 @@ body {
   
 }
 @media screen and  (max-width: 500px) {
-  body {
-  background-image: url(https://newevolutiondesigns.com/images/freebies/space-iphone-wallpaper-18.jpg)no-repeat center center fixed;
-  -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
-    color: turquoise;
-  }
+ 
 
   .projectsbackground {
     background-image: none;
@@ -322,6 +315,13 @@ background-size: cover;
   .about {
     background-image: none;
   }
-
+ * {
+  background: url(https://newevolutiondesigns.com/images/freebies/space-iphone-wallpaper-18.jpg)no-repeat center center fixed;
+  -webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+    color: turquoise;
+  }
  
 }
