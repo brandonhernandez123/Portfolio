@@ -315,12 +315,11 @@ body {
   .about {
     background-image: none;
   }
- * {
-  background: url(https://newevolutiondesigns.com/images/freebies/space-iphone-wallpaper-18.jpg)no-repeat center center fixed;
-  -webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover;
+ body{
+   background-image: none;
+  background: rgb(43,0,71);
+background: linear-gradient(90deg, rgba(43,0,71,1) 6%, rgba(0,0,0,1) 50%, rgba(0,32,89,1) 100%);
+
     color: turquoise;
   }
  
